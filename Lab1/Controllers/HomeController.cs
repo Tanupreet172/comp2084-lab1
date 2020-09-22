@@ -16,6 +16,7 @@ namespace Lab1.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            Console.WriteLine("Home Controller");
         }
 
         public IActionResult Index()
